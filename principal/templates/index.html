@@ -1,0 +1,679 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Plataforma de Información Salud Junin</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/favicon.png' %}" rel="icon">
+  <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+
+
+
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="{% static 'assets/img/profile-img-ok.jpg' %}" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">DIRESA JUNIN</a></h1>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Repositorio Regional</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-bar-chart-alt"></i> <span>Indicadores Sanitarios</span></a></li>
+          <li><a href="#facts" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Padron Nominal</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-vial"></i> <span>Vacunación</span></a></li>
+          <li><a href="#testimonials" class="nav-link scrollto"><i class="bx bx-building"></i> <span>Hechos Vitales y eQhali</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-cube-alt"></i> <span>Modulos Regionales</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-abacus"></i> <span>Report HIS Regional</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Estadistica e Informatica</h1>
+      <p>OTI - <span class="typed"
+          data-typed-items="Sistemas de Información, Gestión de la Información, Disponibilidad y Calidad, Difusion y publicación"></span>
+      </p>
+    </div>
+  </section>
+  <!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section REPOSITORIO======= -->
+    <section id="about" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Repositorio Regional</h2>
+          <p>Sistema estadistico con información actualizada de reportes operacionales de las estrategias sanitarias, etapas de vida, reportes estadisticos con el objetivo de estandarizar criterios de registros, codificacion y datos abiertos en salud de la Region Junin.</> </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-clipboard-data"></i></div>
+            <h4 class="title"><a href="http://data.diresajunin.gob.pe/" target="_blank">Repositorio Estadistico</a></h4>
+            <p class="description">Contiene información de Padron Nominal, HISMINSA, Egresos y Emergencia, CNV, SINADEF, Medicamentos entre otros</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="bi bi bi-cloud-arrow-down"></i></div>
+            <h4 class="title"><a href="http://cloud.saludjunin.site/index.php/login" target="_blank">Cloud Diresa Junin</a></h4>
+            <p class="description">Alojamiento de archivos de la Direccion Regional de Salud</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="bi bi-envelope"></i></div>
+            <h4 class="title"><a href="https://correo.diresajunin.gob.pe/" target="_blank">Correo Institucional</a></h4>
+            <p class="description">Correo Insitucional de la Direccion Regional de Salud</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+        <!-- ======= Portfolio Section INDICADORES ======= -->
+        <section id="portfolio" class="portfolio section-bg">
+          <div class="container">
+    
+            <div class="section-title">
+              <h2>Indicadores en Salud</h2>
+              <p>Los convenios en Salud son compromisos vinculados al servicio de salud, AP-ENDIS, Estímulo al Desempeño y Logro de Resultados Sociales (FED) y Convenios de Gestion (MINSA), estas Herramientas de gestión que define los logros esperados de las metas institucionales.</p>
+            </div>
+    
+            <div class="row" data-aos="fade-up">
+              <div class="col-lg-12 d-flex justify-content-center">
+                <ul id="portfolio-flters">
+                  <li data-filter="*" class="filter-active">TODOS</li>
+                  <li data-filter=".filter-app">FED</li>
+                  <li data-filter=".filter-card">CONVENIOS DE GESTION</li>
+                  <li data-filter=".filter-web">AP-ENDIS</li>
+                </ul>
+              </div>
+            </div>
+    
+            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+    
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <img src="{% static 'assets/img/portfolio/prematuro.png' %}" class="img-fluid" alt="">
+                  <div class="portfolio-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiMDAyMzcxNWYtMmJjYy00ZmJjLThlZDQtMmYyMDg4M2Q1ZmNiIiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">
+                      <i class="bx bx-link"></i>
+                      Niños con prematuridad y/o bajo peso al nacer, que reciben gotas en hierro
+                    </a>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <img src="{% static 'assets/img/portfolio/tamizaje.png' %}" class="img-fluid" alt="">
+                  <div class="portfolio-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiZmIyNDViZjUtZWJkOS00MWQzLTg2MTYtM2FkNTRmYWNlMWJiIiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9&pageName=ReportSection2193f6f4cb2050b67741" target="_blank">   
+                      <i class="bx bx-link"></i>
+                      Recién nacidos,cuentan con tamizaje neonatal (metabólico) al mes de vida
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <img src="{% static 'assets/img/portfolio/inicio_tratamiento.png' %}" class="img-fluid" alt="">
+                  <div class="portfolio-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiODU0NDBmZTEtZjcxYi00MTI5LTgxNGUtYWJhYTY1NjRhNjJkIiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">   
+                      <i class="bx bx-link"></i>
+                      Niños y Niñas entre los 110 y 130 dias que reciben hierro en gotas
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <img src="{% static 'assets/img/portfolio/dit.png' %}" class="img-fluid" alt="">
+                  <div class="portfolio-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiNjFiMjVjMGQtMTlhMy00YzU4LWE0ZmYtZmM3MTEwNTExYWZmIiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9&pageName=ReportSection2193f6f4cb2050b67741" target="_blank">   
+                      <i class="bx bx-link"></i>
+                      Niños de 6 a 8 Meses, que inician suplementacion o tratamiento preventivo
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <img src="{% static 'assets/img/portfolio/cred.png' %}" class="img-fluid" alt="">
+                  <div class="portfolio-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiNzdiNmJjOWUtYjBlMy00Y2VjLWFkZWUtNGNjYmViYzM0ZDQ5IiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9&pageName=ReportSection2193f6f4cb2050b67741" target="_blank">   
+                      <i class="bx bx-link"></i>
+                      Niños menores de 12 meses de edad, que cuentan con controles CRED presenciales
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <img src="{% static 'assets/img/portfolio/SISCOVID.png' %}" class="img-fluid" alt="">
+                  <div class="portfolio-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiNDcxMTllODItYjc1Yi00ZTQ1LTk4OWUtNmM5NWZjZDljNDQ0IiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9&pageName=ReportSection2193f6f4cb2050b67741" target="_blank">   
+                      <i class="bx bx-link"></i>
+                      Indicadores relacionados al COVID-19 SIII-05 Y SII-06
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <img src="{% static 'assets/img/portfolio/examen.png' %}" class="img-fluid" alt="">
+                  <div class="portfolio-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiZDk5MmExMzgtMTZmZS00N2ViLWE2NjQtYzk0MDJkNjcwNDcyIiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9&pageName=ReportSection2193f6f4cb2050b67741" target="_blank">   
+                      <i class="bx bx-link"></i>
+                      Gestantes atendidas en IPRESS,que reciben 4 exámenes auxiliares en el primer trimestre
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <img src="{% static 'assets/img/portfolio/planificacion.png' %}" class="img-fluid" alt="">
+                  <div class="portfolio-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiNTQyODk5MTAtNWVmYS00NmZkLWJmMTgtYWY1ZTk5MGM3YmI4IiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9&pageName=ReportSection2193f6f4cb2050b67741" target="_blank">   
+                      <i class="bx bx-link"></i>
+                      Usuarias en el servicio de Planificacion Familiar con deteccion de violencia contra la mujer
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <img src="{% static 'assets/img/portfolio/incio_tratamiento_psicologia.png' %}" class="img-fluid" alt="">
+                  <div class="portfolio-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiN2NjZWE1ODgtZTBmNC00M2Y1LTliNWEtYjY3NTdiYzI4NmZiIiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9&pageName=ReportSection0a4138561842cd17b6c6" target="_blank">   
+                      <i class="bx bx-link"></i>
+                      Gestantes cuentan con diagnostico e inician tratamiento, realizadas en IPRESS del primer nivel
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <img src="{% static 'assets/img/portfolio/paquete_nino.png' %}" class="img-fluid" alt="">
+                  <div class="portfolio-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiZDVhMWJlODgtMWE5Yi00NjQwLWI3ZGItMTFhN2I0ZDhmMDE3IiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">   
+                      <i class="bx bx-link"></i>
+                      Niños con CRED, vacunacion completa, entrega de hierro, dosaje de hemglobina y cuentan con DNI
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <img src="{% static 'assets/img/portfolio/paquete_gestante.png' %}" class="img-fluid" alt="">
+                  <div class="portfolio-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiMjk0OThiM2YtNjI0MC00OTVmLWE3NmItMTUwYmUzMDYwYzk5IiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">   
+                      <i class="bx bx-link"></i>
+                      Mujeres con parto institucional, que durante su gestanción recibieron el paquete integrado de servicios (RETROSPECTIVO)
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <img src="{% static 'assets/img/portfolio/paquete_gestante.png' %}" class="img-fluid" alt="">
+                  <div class="portfolio-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiNDM2ODYxNDMtZmRhNy00YjY2LWEyMzAtODFlOThhZTA5YWQ0IiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">   
+                      <i class="bx bx-link"></i>
+                      Mujeres con parto institucional, que durante su gestanción recibieron el paquete integrado de servicios (PROSPECTIVO)
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!--- <div class="col-lg-4 col-md-6 portfolio-item filter-card"> CONVENIOS DE GESTION --->
+       
+              <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                <div class="portfolio-wrap">
+                  <img src="{% static 'assets/img/portfolio/anemia.png' %}" class="img-fluid" alt="">
+                  <div class="portfolio-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiM2ViNWY5NTQtODdiOC00NjUyLWEzZjQtZTE1MzcyNjI5OTlhIiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">   
+                      <i class="bx bx-link"></i>
+                      Porcentaje de niños con diagnostico de anemia entre 6 y 11 meses, que se han recuperado
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                <div class="portfolio-wrap">
+                  <img src="{% static 'assets/img/portfolio/paquete_nino.png' %}" class="img-fluid" alt="">
+                  <div class="portfolio-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiM2ZkN2UzMjgtMzQwNC00MWRhLWE0NjYtN2ZiMmY5MzRkNzI4IiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">   
+                      <i class="bx bx-link"></i>
+                      Porcentaje de niños sin dx de anemia, CRED, vacunas, dosaje de homoglobina y suplementacion con hierro
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                <div class="portfolio-wrap">
+                  <img src="{% static 'assets/img/portfolio/cred.png' %}" class="img-fluid" alt="">
+                  <div class="portfolio-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiNTRkZWNhNWMtNjcwYy00MzA1LThjZTgtNDVhMTM5NDZiYzQwIiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">   
+                      <i class="bx bx-link"></i>
+                      Porcentaje de recien nacidos con dos controles CRED
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                <div class="portfolio-wrap">
+                  <img src="{% static 'assets/img/portfolio/vacuna_nacido.png' %}" class="img-fluid" alt="">
+                  <div class="portfolio-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiM2ZkN2UzMjgtMzQwNC00MWRhLWE0NjYtN2ZiMmY5MzRkNzI4IiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">   
+                      <i class="bx bx-link"></i>
+                      Porcentaje de recien nacidos que reciben vacunas completas antes del alta
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                <div class="portfolio-wrap">
+                  <img src="{% static 'assets/img/portfolio/paquete_gestante.png' %}" class="img-fluid" alt="">
+                  <div class="portfolio-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiMzVlYmI2YzYtZjhjMy00MjU3LWI3MGItMGU4N2U2YWZhYTQyIiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">   
+                      <i class="bx bx-link"></i>
+                      Porcentaje de gestantes con paquete preventivo completo
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                <div class="portfolio-wrap">
+                  <img src="{% static 'assets/img/portfolio/planificacion.png' %}" class="img-fluid" alt="">
+                  <div class="portfolio-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiNDBjMzdkYzUtMmJjYy00MjQ2LTgzMmYtOTg3MDZlNGQ4Mjg1IiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">   
+                      <i class="bx bx-link"></i>
+                      Porcentaje de mujeres que acceden a metodos de planificacion familiar post parto institucion
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                <div class="portfolio-wrap">
+                  <img src="{% static 'assets/img/portfolio/visita_anemia.png' %}" class="img-fluid" alt="">
+                  <div class="portfolio-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiYjg3MDgxMDktZjM5NC00YThhLTg4NzMtNjJiYmY4NTIyYTc4IiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">   
+                      <i class="bx bx-link"></i>
+                      Niños de 6 a 11 meses con dx anemia que reciben consejeria a traves de visita domiciliaria o teleorientacion
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                <div class="portfolio-wrap">
+                  <img src="{% static 'assets/img/portfolio/cuello_uterino.png' %}" class="img-fluid" alt="">
+                  <div class="portfolio-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiZTAzNjdiMjctNjExZC00MWQxLTllMTItYjQ5NTA4YWI2ZDk3IiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">   
+                      <i class="bx bx-link"></i>
+                      Mujeres de 25 a 64 años con tamizaje para la deteccion de lesiones premalignas e incipiente de cancer de cuello uterino
+                    </a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                <div class="portfolio-wrap">
+                  <img src="{% static 'assets/img/portfolio/alta_odonto.png' %}" class="img-fluid" alt="">
+                  <div class="portfolio-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiYjVlNTk1YmUtM2U3Yi00YTIwLThhMzMtNDU5ZGIwMzA0NTI4IiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">   
+                      <i class="bx bx-link"></i>
+                      Porcentaje de niñas y niños de 3 a 11 años con alta basica odontologica
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                <div class="portfolio-wrap">
+                  <img src="{% static 'assets/img/portfolio/adolescente.png' %}" class="img-fluid" alt="">
+                  <div class="portfolio-links">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiMTA0Y2VhZTMtZWExMi00NzBhLTkzZmEtNDRiNGEyYjc5MWYzIiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank" target="_blank">   
+                      <i class="bx bx-link"></i>
+                      Porcentaje de adolescentes que reciben preventivamente suplementación de hierro más ácido fólico
+                    </a>
+                  </div>
+                </div>
+              </div>
+    
+              <!--- <div class="col-lg-4 col-md-6 portfolio-item filter-card"> APENDIS --->
+    
+    
+            </div>
+    
+          </div>
+        </section><!-- End Portfolio Section -->
+
+    <!-- ======= Facts Section PADRON NOMINAL ======= -->
+    <section id="facts" class="facts">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Padron Nominal</h2>
+          <p>Es la nomina o relación de niñas y niños menores de 6 años de edad registrados en una plataforma electrónica, que viven en un determinado distrito.
+            Permite diagnosticar adecuadamente el estado de las variables de los registros en línea de niños y niñas menores de 6 años.</p>
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <img src="{% static 'assets/img/portfolio/padron_nominal.png' %}" class="img-fluid" alt="">
+                <a href="https://app.powerbi.com/view?r=eyJrIjoiYTgyMGMzMTUtZTlkZC00YmUxLTliYjAtOWZjYjE3ZDU2YmRmIiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">
+                 Sello Municipal, variables priorizados DIRESA, Meta 4
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <img src="{% static 'assets/img/portfolio/padron_nominal.png' %}" class="img-fluid" alt="">
+                <a href="https://airtable.com/embed/shrOO5ndVmc8cdzZa?backgroundColor=red&viewControls=on" target="_blank">
+                Directorio Actualizado de Responsables 
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <img src="{% static 'assets/img/portfolio/padron_nominal.png' %}" class="img-fluid" alt="">
+                <a href="https://public.tableau.com/app/profile/ogei.minsa.peru/viz/Padron_Nominal/PadronNominal" target="_blank">
+                 Repositorio y herramientas de apoyo
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Facts Section -->
+
+    <!-- ======= Services Section VACUNACION======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Vacunación</h2>
+          <p>Vacunacion Contra el Covid-19 y esquema regular</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-shield-check"></i></div>
+            <h4 class="title">
+              <a href="https://radiant-sands-49815.herokuapp.com/"  target="_blank">Vacunacion Covid-19</a>
+            </h4>
+            <p class="description">Avance de vacunación con todas sus estadisticas</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="bi bi-shield-check"></i></div>
+            <h4 class="title"><a href="https://app.powerbi.com/view?r=eyJrIjoiNmMyMDQ3MTEtNzM4NC00ODljLTkzODctNGUwYzFjNWYwMDBiIiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">Esquema Regular</a></h4>
+            <p class="description">Seguimiento del esquema regular</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="bi bi-bar-chart"></i></div>
+            <h4 class="title"><a href="https://www.minsa.gob.pe/reunis/data/Inmunizaciones.asp" target="_blank">Tablero de Inmunizaciones</a></h4>
+            <p class="description">Tablero de Informacion de Inmunizaciones- REUNIS</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Hechos Vitales y Historia Clínica electrónica eQhali</h2>
+          <p>Migracion de e-Qhali. Modulos de Wawa red, Cred y Imunizaciones</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up">
+                <p>
+                  <a href="https://sites.google.com/view/hechos-vitalesjunin/inicio" target="_blank">
+                    CNV en linea
+                  </a>
+                  <br>
+                  <a href="https://www.minsa.gob.pe/reunis/data/tablero_cnv.asp" target="_blank">
+                    Tablero Nacimiento REUNIS
+                  </a>
+                </p>
+                <img src="{% static 'assets/img/testimonials/nacimientos.jpg' %}" class="testimonial-img" alt="">
+                <h3>Nacimientos</h3>
+              </div>
+            </div><!-- End testimonial item NACIMIENTOS-->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up">
+                <p>
+                  <a href="https://sites.google.com/view/hechos-vitalesjunin/inicio" target="_blank">
+                    Registro SINADEF
+                  </a>
+                  <br>
+                  <a href="https://www.minsa.gob.pe/reunis/data/defunciones_registradas.asp" target="_blank">
+                    Tablero Defunciones REUNIS
+                  </a>
+                </p>
+                <img src="{% static 'assets/img/testimonials/defunciones.jpg' %}" class="testimonial-img" alt="">
+                <h3>Defunciones</h3>
+              </div>
+            </div><!-- End testimonial item DEFUNCIONES-->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up">
+                <p>
+                  <a href="https://app.powerbi.com/view?r=eyJrIjoiYzFlMmYxYjYtN2Y0My00NzY4LWFiYWQtNWMxZjQ3ZTBkZmI5IiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">
+                    Migracion de Eqhali a HIS MINSA
+                  </a>
+                  <br>
+                  <a href="http://logincentral.minsa.gob.pe/" target="_blank">
+                    Acceso al Sistema
+                  </a>
+                </p>
+                <img src="{% static 'assets/img/testimonials/inmunizaciones.jpg' %}" class="testimonial-img" alt="">
+                <h3>Modulo de Inmunizaciones</h3>
+              </div>  
+            </div><!-- End testimonial item Eqhali Inmunizaciones-->
+            
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up">
+                <p>
+                  <a href="https://app.powerbi.com/view?r=eyJrIjoiNGYxM2M4Y2UtYjU0Ni00OWM0LWJmNDItODBmZjA5OTEzYzlkIiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">
+                    Migracion de Eqhali a HIS MINSA
+                  </a>
+                  <br>
+                  <a href="http://logincentral.minsa.gob.pe/" target="_blank">
+                    Acceso al Sistema
+                  </a>
+                </p>
+                <img src="{% static 'assets/img/testimonials/cred.jpg' %}" class="testimonial-img" alt="">
+                <h3>Modulo de CRED</h3>
+              </div>  
+            </div><!-- End testimonial item Eqhali CRED-->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up">
+                <p>
+                  <a href="https://datastudio.google.com/reporting/0dd17102-809e-4314-8cf0-0de0b086db17" target="_blank">
+                    Migracion de Eqhali a HIS MINSA
+                  </a>
+                  <br>
+                  <a href="http://logincentral.minsa.gob.pe/" target="_blank">
+                    Acceso al Sistema
+                  </a>
+                </p>
+                <img src="{% static 'assets/img/testimonials/wawared.jpg' %}" class="testimonial-img" alt="">
+                <h3>Modulo de Atención Prenatal</h3>
+              </div>  
+            </div><!-- End testimonial item Eqhali wawared-->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Modulos Regionales</h2>
+          <p>Primera Infancia, Odontologo por Colegio y Psicologo por colegio</p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-6 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-eyedropper"></i>
+                <h4>Primero la Infancia - Paquete N° 01</h4>
+                <a href="https://app.powerbi.com/view?r=eyJrIjoiNDM2ODYxNDMtZmRhNy00YjY2LWEyMzAtODFlOThhZTA5YWQ0IiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank"><p>Paquete Gestante</p></a>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-puzzle"></i>
+                <h4>Primero la Infancia - Paquete N° 02</h4>
+                <a href="https://app.powerbi.com/view?r=eyJrIjoiZDVhMWJlODgtMWE5Yi00NjQwLWI3ZGItMTFhN2I0ZDhmMDE3IiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank"><p>Paquete Niño</p></a>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>       
+                <a href="https://app.powerbi.com/view?r=eyJrIjoiYTgyMGMzMTUtZTlkZC00YmUxLTliYjAtOWZjYjE3ZDU2YmRmIiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank"><h4>Tablero Padron Nominal</h4></a>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-stretch">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-building"></i>
+                  <h4>Odontologo por Colegio</h4>
+                  <p>
+                    <a href="#">Tablero de control</a>
+                    <br>
+                    <a href="#">Produccion de personal</a>
+                  </p>
+                </div>
+  
+                <div class="email">
+                  <i class="bi bi-building"></i>
+                  <h4>Psicologo por Colegio</h4>
+                  <p>
+                    <a href="#">Tablero de control</a>
+                    <br>
+                    <a href="#">Produccion de personal</a>
+                  </p>
+                </div>
+  
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <a href="http://diresahis.ga/" target="_blank">
+                    <h4>Consulta HIS-MINSA</h4>
+                  </a>
+                </div>
+              </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        &copy; <strong><span>Desarrollado por: </span></strong><a href="#">OTI</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/purecounter/purecounter.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/typed.js/typed.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/waypoints/noframework.waypoints.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+</html>
