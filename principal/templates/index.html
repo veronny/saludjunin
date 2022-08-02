@@ -22,8 +22,6 @@
 
   <!-- Vendor CSS Files -->
 
-
-
   <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
   <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
   <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
@@ -56,7 +54,7 @@
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-bar-chart-alt"></i> <span>Indicadores Sanitarios</span></a></li>
           <li><a href="#facts" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Padron Nominal</span></a></li>
           <li><a href="#services" class="nav-link scrollto"><i class="bx bx-vial"></i> <span>Vacunación</span></a></li>
-          <li><a href="#testimonials" class="nav-link scrollto"><i class="bx bx-building"></i> <span>Hechos Vitales y eQhali</span></a></li>
+          <li><a href="#testimonials" class="nav-link scrollto"><i class="bx bx-building"></i> <span>Hechos Vitales y SIHCE</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-cube-alt"></i> <span>Modulos Regionales</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-abacus"></i> <span>Report HIS Regional</span></a></li>
         </ul>
@@ -77,7 +75,7 @@
 
   <main id="main">
 
-    <!-- ======= About Section REPOSITORIO======= -->
+  <!-- ======= About Section REPOSITORIO======= -->
     <section id="about" class="services">
       <div class="container">
 
@@ -94,7 +92,7 @@
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="bi bi bi-cloud-arrow-down"></i></div>
-            <h4 class="title"><a href="http://cloud.saludjunin.site/index.php/login" target="_blank">Cloud Diresa Junin</a></h4>
+            <h4 class="title"><a href="http://cloud.diresajunin.gob.pe/" target="_blank">Cloud Diresa Junin</a></h4>
             <p class="description">Alojamiento de archivos de la Direccion Regional de Salud</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
@@ -107,7 +105,7 @@
       </div>
     </section><!-- End About Section -->
 
-        <!-- ======= Portfolio Section INDICADORES ======= -->
+  <!-- ======= Portfolio Section INDICADORES ======= -->
     <section id="portfolio" class="portfolio section-bg">
           <div class="container">
     
@@ -415,7 +413,7 @@
           </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= Facts Section PADRON NOMINAL ======= -->
+  <!-- ======= Facts Section PADRON NOMINAL ======= -->
     <section id="facts" class="facts">
       <div class="container">
 
@@ -430,8 +428,17 @@
           <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
             <div class="count-box">
               <img src="{% static 'assets/img/portfolio/padron_nominal.png' %}" class="img-fluid" alt="">
+                <a href="https://padronnominal.reniec.gob.pe/padronn/" target="_blank">
+                 Acceso al Sistema Padron Nominal
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <img src="{% static 'assets/img/portfolio/padron_nominal.png' %}" class="img-fluid" alt="">
                 <a href="https://app.powerbi.com/view?r=eyJrIjoiYTgyMGMzMTUtZTlkZC00YmUxLTliYjAtOWZjYjE3ZDU2YmRmIiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">
-                 Sello Municipal, variables priorizados DIRESA, Meta 4
+                 Tablero de seguimiento del Sello Municipal, variables priorizados DIRESA, Meta 4
               </a>
             </div>
           </div>
@@ -439,27 +446,44 @@
           <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
             <div class="count-box">
               <img src="{% static 'assets/img/portfolio/padron_nominal.png' %}" class="img-fluid" alt="">
-                <a href="https://airtable.com/embed/shrOO5ndVmc8cdzZa?backgroundColor=red&viewControls=on" target="_blank">
-                Directorio Actualizado de Responsables 
+                <a href="https://www.minsa.gob.pe/reunis/data/directorio_padron_nominal.asp" target="_blank">
+                Directorio Actualizado de Responsables del Padron Nominal 
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
             <div class="count-box">
-              <img src="{% static 'assets/img/portfolio/padron_nominal.png' %}" class="img-fluid" alt="">
+              <img src="{% static 'assets/img/portfolio/padron_nominal.png' %}" class="img-fluid" alt="">            
+                <a href="https://public.tableau.com/profile/ogei.minsa.peru#!/vizhome/PADRON_NOMINAL_TOOLS/PN" target="_blank">
+                 Repositorio Nacional de Niños y Niñas no encontrados en el Padron Nominal
+              </a>
+            </div>
+          </div> 
+          
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <img src="{% static 'assets/img/portfolio/padron_nominal.png' %}" class="img-fluid" alt="">            
+                <a href="https://websalud.minsa.gob.pe/hisminsa/" target="_blank">
+                HIS MINSA - Seguimiento para la Padron Nominal
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <img src="{% static 'assets/img/portfolio/padron_nominal.png' %}" class="img-fluid" alt="">            
                 <a href="https://public.tableau.com/app/profile/ogei.minsa.peru/viz/Padron_Nominal/PadronNominal" target="_blank">
-                 Repositorio y herramientas de apoyo
-              </a>
+                Tablero de Poblacion de niños menores de 6 años
+                </a>
             </div>
           </div>
-
         </div>
 
       </div>
     </section><!-- End Facts Section -->
 
-    <!-- ======= Services Section VACUNACION======= -->
+  <!-- ======= Services Section VACUNACION======= -->
     <section id="services" class="services">
       <div class="container">
 
@@ -476,10 +500,25 @@
             </h4>
             <p class="description">Avance de vacunación con todas sus estadisticas</p>
           </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="bi bi-bar-chart"></i></div>
+            <h4 class="title"><a href="https://app.powerbi.com/view?r=eyJrIjoiMDA3Y2JlNGMtMTU4MC00M2EyLThjMTctNzJkYjg0YTIxNWU4IiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9&pageName=ReportSection71cd0ea35d806605940d" target="_blank">Cobertura de Vacunacion COVID-19</a></h4>
+            <p class="description">Por edades segun dosis</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="bi bi-bar-chart"></i></div>
+            <h4 class="title"><a href="https://app.powerbi.com/view?r=eyJrIjoiM2RjNmM5ZGUtMGQxNC00ZWMzLTlmYTItZDExZThiNWY0MmIxIiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">Linea de Tiempo y Rezagados</a></h4>
+            <p class="description">Linea de tiempo y Rezagados Vacunacion COVID-19</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="bi bi-bar-chart"></i></div>
+            <h4 class="title"><a href="https://app.powerbi.com/view?r=eyJrIjoiYThhZTdmYzgtNzFhZC00MTFiLTkyYjQtNjIwZGYyOTcxNmU4IiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9&pageName=ReportSection" target="_blank">Tablero Esquema Regular</a></h4>
+            <p class="description">Tablero Esquema Regular</p>
+          </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="bi bi-shield-check"></i></div>
-            <h4 class="title"><a href="https://app.powerbi.com/view?r=eyJrIjoiNmMyMDQ3MTEtNzM4NC00ODljLTkzODctNGUwYzFjNWYwMDBiIiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">Esquema Regular</a></h4>
-            <p class="description">Seguimiento del esquema regular</p>
+            <h4 class="title"><a href="https://app.powerbi.com/view?r=eyJrIjoiNmMyMDQ3MTEtNzM4NC00ODljLTkzODctNGUwYzFjNWYwMDBiIiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">Seguimiento Esquema Regular</a></h4>
+            <p class="description">Seguimiento del Esquema Regular</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="bi bi-bar-chart"></i></div>
@@ -491,13 +530,13 @@
       </div>
     </section><!-- End Services Section -->
 
-    <!-- ======= Testimonials Section ======= -->
+    <!-- ======= Testimonials Section SIHCE ======= -->
     <section id="testimonials" class="testimonials section-bg">
       <div class="container">
 
         <div class="section-title">
-          <h2>Hechos Vitales y Historia Clínica electrónica eQhali</h2>
-          <p>Migracion de e-Qhali. Modulos de Wawa red, Cred y Imunizaciones</p>
+          <h2>Hechos Vitales y Historia Clínica electrónica SIHCE</h2>
+          <p>Migracion de SIHCE. Modulos de WAWARED, CRED e Imunizaciones</p>
         </div>
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -506,14 +545,21 @@
             <div class="swiper-slide">
               <div class="testimonial-item" data-aos="fade-up">
                 <p>
-                  <a href="https://sites.google.com/view/hechos-vitalesjunin/inicio" target="_blank">
-                    CNV en linea
+                  <a href="https://portalrcm.reniec.gob.pe/hechosvitales/Login.do" target="_blank">
+                    Ingreso al Sistema CNV en linea
                   </a>
-                  <br>
+                </p>
+                <p>
+                  <a href="https://sites.google.com/view/hechos-vitalesjunin/inicio" target="_blank">
+                    Tablero CNV en linea REGIONAL
+                  </a>
+                </p>
+                <p>
                   <a href="https://www.minsa.gob.pe/reunis/data/tablero_cnv.asp" target="_blank">
                     Tablero Nacimiento REUNIS
                   </a>
                 </p>
+
                 <img src="{% static 'assets/img/testimonials/nacimientos.jpg' %}" class="testimonial-img" alt="">
                 <h3>Nacimientos</h3>
               </div>
@@ -522,10 +568,16 @@
             <div class="swiper-slide">
               <div class="testimonial-item" data-aos="fade-up">
                 <p>
-                  <a href="https://sites.google.com/view/hechos-vitalesjunin/inicio" target="_blank">
-                    Registro SINADEF
+                  <a href="https://portalrcm.reniec.gob.pe/hechosvitales/Login.do" target="_blank">
+                    Ingreso al Sistema SINADEF
                   </a>
-                  <br>
+                </p>
+                <p>
+                  <a href="https://www.minsa.gob.pe/reunis/data/defunciones_registradas.asp" target="_blank">
+                    Tablero Defunciones REGIONAL
+                  </a>
+                </p>
+                <p>
                   <a href="https://www.minsa.gob.pe/reunis/data/defunciones_registradas.asp" target="_blank">
                     Tablero Defunciones REUNIS
                   </a>
@@ -539,9 +591,10 @@
               <div class="testimonial-item" data-aos="fade-up">
                 <p>
                   <a href="https://app.powerbi.com/view?r=eyJrIjoiYzFlMmYxYjYtN2Y0My00NzY4LWFiYWQtNWMxZjQ3ZTBkZmI5IiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">
-                    Migracion de Eqhali a HIS MINSA
+                    Tablero Migracion de SIHCE a HIS MINSA
                   </a>
-                  <br>
+                </p>
+                <p>
                   <a href="http://logincentral.minsa.gob.pe/" target="_blank">
                     Acceso al Sistema
                   </a>
@@ -555,9 +608,10 @@
               <div class="testimonial-item" data-aos="fade-up">
                 <p>
                   <a href="https://app.powerbi.com/view?r=eyJrIjoiNGYxM2M4Y2UtYjU0Ni00OWM0LWJmNDItODBmZjA5OTEzYzlkIiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">
-                    Migracion de Eqhali a HIS MINSA
+                    Tablero Migracion de SIHCE a HIS MINSA
                   </a>
-                  <br>
+                </p>
+                <p>
                   <a href="http://logincentral.minsa.gob.pe/" target="_blank">
                     Acceso al Sistema
                   </a>
@@ -571,11 +625,12 @@
               <div class="testimonial-item" data-aos="fade-up">
                 <p>
                   <a href="https://datastudio.google.com/reporting/0dd17102-809e-4314-8cf0-0de0b086db17" target="_blank">
-                    Migracion de Eqhali a HIS MINSA
+                    Tablero Migracion de SIHCE a HIS MINSA
                   </a>
-                  <br>
+                </p>
+                <p>
                   <a href="http://logincentral.minsa.gob.pe/" target="_blank">
-                    Acceso al Sistema
+                    Acceso al Sistema WAWARED
                   </a>
                 </p>
                 <img src="{% static 'assets/img/testimonials/wawared.jpg' %}" class="testimonial-img" alt="">
@@ -629,9 +684,7 @@
                   <i class="bi bi-building"></i>
                   <h4>Odontologo por Colegio</h4>
                   <p>
-                    <a href="#">Tablero de control</a>
-                    <br>
-                    <a href="#">Produccion de personal</a>
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiOTk0MjM4ZmEtM2JlOS00YTJhLWI5NWYtOGNkNDcwZjlmMWJhIiwidCI6ImQxYzM1MDFkLWE2MWUtNGJiYi04NDdhLWQ5NDRiZmFlOGRiMCIsImMiOjR9" target="_blank">Tablero de control</a>
                   </p>
                 </div>
   
@@ -640,8 +693,6 @@
                   <h4>Psicologo por Colegio</h4>
                   <p>
                     <a href="#">Tablero de control</a>
-                    <br>
-                    <a href="#">Produccion de personal</a>
                   </p>
                 </div>
   
